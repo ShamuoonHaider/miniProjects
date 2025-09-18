@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Document</title>
+</head>
+<body class="bg-gray-200 flex justify-center items-center h-screen">
+  <div class=" bg-gray-900 rounded-4xl shadow-lg p-4 w-115">
+    <input type="text" class=" text-white text-6xl font-bold w-98 focus:border-none focus:outline-none pb-4 pt-15 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none text-left" id="result" >;
+    <div class="grid grid-cols-4 gap-6" id="buttons">
+      <button class="text-5xl bg-gray-300  py-4 rounded-full cursor-pointer" id="clear">C</button>
+      <button class="text-5xl bg-gray-300  py-4 rounded-full cursor-pointer">%</button>
+      <button class="text-5xl bg-gray-300  py-5 rounded-full cursor-pointer" id="backspace">←</button>
+      <button class="text-5xl bg-orange-500 text-white  py-5 rounded-full text-center cursor-pointer">/</button>
+      <button class="text-5xl bg-stone-600 text-white  py-4 rounded-full cursor-pointer">7</button>
+      <button class="text-5xl bg-stone-600 text-white  py-4 rounded-full cursor-pointer">8</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-5 rounded-full cursor-pointer">9</button>
+      <button class="text-5xl bg-orange-500 text-white px-8 py-5 rounded-full text-center cursor-pointer">*</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-4 rounded-full cursor-pointer">4</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-4 rounded-full cursor-pointer">5</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-5 rounded-full cursor-pointer">6</button>
+      <button class="text-5xl bg-orange-500 text-white px-8 py-5 rounded-full text-center cursor-pointer">-</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-4 rounded-full cursor-pointer">1</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-4 rounded-full cursor-pointer">2</button>
+      <button class="text-5xl bg-stone-600 text-white px-7 py-5 rounded-full cursor-pointer">3</button>
+      <button class="text-5xl bg-orange-500 text-white px-8 py-5 rounded-full text-center cursor-pointer">+</button>
+      <button class="text-5xl bg-stone-600 text-white py-4 pl-7 rounded-full text-start cursor-pointer">0</button>
+      <button class="text-5xl bg-stone-600 text-white rounded-full px-9 cursor-pointer">.</button>
+      <button class="text-5xl bg-orange-500 text-white px-8 py-5 rounded-full cursor-pointer" id="calc">=</button>
+      </div>
+  </div>
+  <script src="cal.js"></script>
+</body>
+</html>
