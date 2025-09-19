@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Todo List</title>
+</head>
+<body class="bg-gray-800 text-white">
+  <div class="m-auto flex flex-col items-center mt-10 bg-gray-700 min-h-100 w-150 shadow-2xl shadow-gray-800 rounded-2xl">
+    <h1 class="text-5xl font-bold pt-8">ToDo List 📝</h1>
+    
+    <div class="mt-10 flex items-center justify-center">
+    <input type="text" id="taskInput" placeholder="Add your task" class="bg-gray-600 text-2xl p-4 rounded-full w-120 ml-16">
+
+    <button class="bg-green-600 text-black text-3xl p-4 rounded-full relative right-17 hover:bg-green-400 cursor-pointer" id="addBtn">➕</button>
+    </div>
+    <p id="message" class="text-2xl py-5"></p>
+    <ul id="taskList" type="1"></ul>
+  </div>
+  <script src="todo.js"></script>
+</body>
+</html>
